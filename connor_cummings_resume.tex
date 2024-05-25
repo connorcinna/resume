@@ -1,0 +1,304 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{tabto}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      %\vspace{-1pt}\item
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubheadingTwo}[1]{
+  \vspace{-1pt}
+  %\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{#1} \\
+  \vspace{-0.5pt}\item
+  %\end{tabular*}
+  \vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\setlength\itemsep{1pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/connorcinna/}{\Large Connor Cummings}} & Email : \href{mailto:connorcinna@gmail.com}{mailto:connorcinna@gmail.com}\\
+  \href{https://github.com/connorcinna}{https://github.com/connorcinna} & Mobile
+  : 678-596-5960 \\
+ Natural US Citizen & Duluth, GA 30097  \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Georgia}{Athens, GA}
+      {BSc, Computer Engineering, minor in computer science}{May 2021 }
+  \resumeSubHeadingListEnd
+
+
+%-----------COURSEWORK-----------------
+  \section{Coursework}
+%  \resumeSubHeadingListStart
+  
+  \resumeSubheadingTwo
+      {Programming}
+      \resumeItemListStart
+      \resumeItem{Systems Programming}
+                 {C++ systems programming in a UNIX environment, involving shell
+                 programming and C++ concepts such as pointers and safe memory handling.}
+                 \resumeItem{Software Development}
+                            {Cross-platform development with
+                              JavaFX with an emphasis on the object-oriented
+                              paradigm.}
+                            \resumeItem{Data Structures}
+                                       {Analysis of different types of abstract data
+                                         types (ADT) and the best practices for
+                                         programming them in C++, including
+                                         stacks, queues, binary trees and linked
+                                       lists.}
+                                       \resumeItemListEnd\vspace{8pt}
+                                       \resumeSubheadingTwo
+                                           {Hardware}%\tabto{1.5in}
+                                           \resumeItemListStart
+                                           \resumeItem{Electronics}
+                                                      {Analysis of
+                                                        microelectronic
+                                                        circuits, components,
+                                                        and ICs. Labs involved
+                                                        creating complete
+                                                        circuits by soldering
+                                                        components to a board
+                                                        and programming in MatLab.}
+                                                      \resumeItem{Sensors and Transducers}
+                                                                 {Classifying
+                                                                   different
+                                                                   types of
+                                                                   sensors,
+                                                                   their
+                                                                   applications,
+                                                                   and how to
+                                                                   use them
+                                                                   effectively
+                                                                   in a project
+                                                                   by combining
+                                                                   with signal
+                                                                   processing,
+                                                                   transducers,
+                                                                   and actuators.}
+                                                                 \resumeItem{Design of Digital Systems}
+                                                                            {FPGA
+                                                                              programming
+                                                                              with
+                                                                              Verilog
+                                                                              hardware
+                                                                              description language
+                                                                              for
+                                                                              complex
+                                                                              logic designs.}
+                                                                            \resumeItem{Embedded Systems}
+                                                                                       {Studied
+                                                                                       the
+                                                                                       68HC11
+                                                                                       microcontroller,
+                                                                                       including
+                                                                                       its
+                                                                                       architecture,
+                                                                                       subroutines,
+                                                                                       and
+                                                                                       Assembly
+                                                                                       instruction
+                                                                                       set.}
+                                                                                       \resumeItemListEnd
+
+ %                                                                                      \resumeSubHeadingListEnd
+%-----------SKILLS-----------------
+\section{Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{GNU/Linux, Emacs, Vim, Bash}
+              {Strong background in programming without an IDE, using command
+                line interface (CLI) programs and configuration files.}
+              \resumeSubItem{Programming}
+                            {C++, Java, Python 3, Verilog, G, 68HC11 Assembly,
+        MIPS Assembly, MatLab}
+                            \resumeSubItem{Technologies}
+                            {JavaFX, Android Studio, AsmIDE, ProjectNavigator,
+        LabView, Logic.ly}
+              \resumeSubItem{LaTeX}
+              {Experience with writing documents using LaTeX, including lab
+                reports, project proposals, and resumes.}
+
+              \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+              \section{Projects}
+              \resumeSubHeadingListStart
+              \resumeSubItem{Automated Lighting System}
+                            {Programmed an Arduino to automatically power a lightbulb, implementing light and motion sensing, I2C protocol, and logic design principles.}
+                            \resumeSubItem{Team Robotics Programming}
+                            {\textit{In Progress: }Team of 4 computer engineers collaborated with a
+                              team of 4 electrical engineers to design a control
+                            system on a custom PCB for a car that would be controlled by
+                            a Bluetooth module via an Android app that the team
+                            created. Personal role involved overall design and
+                            writing the app to control the car.}
+                                          \resumeSubItem{AM/FM Radio Receiver}
+                                                        {Implemented inverting
+                                                          gain op-amp in design
+                                                          of an FM radio
+                                                          receiver. Role
+                                                          included parsing
+                                                          documentation for the
+                                                          project and soldering
+                                                          components to PCB.}
+                                                        \resumeSubItem{Optic Fiber Transceiver}
+                                                        {Built a transceiver
+                                                          using two PCBs, one
+                                                          for the receiver and
+                                                          one for the
+                                                          transmitter, connected
+                                                          by an optic fiber
+                                                          cable. The transceiver
+                                                        was tested by parsing
+                                                        its digital output into
+                                                        MatLab and running Fast
+                                                        Fourier Transform (FFT)
+                                                        operations on it.}
+                                                        \resumeSubItem{Arithmetic
+                                                        Logic Unit (ALU)}
+                                                                      {\textit{In
+                                                                          Progress:
+                                                                        }Designed
+                                                                        and
+                                                                        built a
+                                                                        4-bit
+                                                                        ALU with
+                                                                      2 data
+                                                                      registers,
+                                                                      4-bit
+                                                                      insruction
+                                                                      decoder,
+                                                                      and 16
+                                                                      instructions
+                                                                      (3 NOP),
+                                                                      all
+                                                                      controlled
+                                                                      by a state
+                                                                      machine,
+                                                                      in
+                                                                      Logic.ly
+                                                                      (logic
+                                                                      gate simulator).}
+                                                                      \resumeSubItem
+                                                                      {Digital
+                                                                      Temperature
+                                                                      Measurement
+                                                                      System}
+                                                                      {\textit{In
+                                                                          Progress:}
+                                                                        Developed
+                                                                        a digital
+                                                                        temperature
+                                                                        measuring
+                                                                        system
+                                                                        using the
+                                                                        68HC11
+                                                                        development
+                                                                        board,
+                                                                        programmed
+                                                                        in 68HC11
+                                                                        Assembly.}
+                                                        \resumeSubItem{UGAHacks}
+                                                                      {Organizer
+                                                                        for
+                                                                        UGAHacks
+                                                                        4, 5, and
+                                                                        6, UGA's
+                                                                        annual
+                                                                        hackathon.
+                                                                      Worked with
+                                                                      the
+                                                                      sponsorship
+                                                                      team that
+                                                                      managed to
+                                                                      raise over
+                                                                      \$10,000
+                                                                      for
+                                                                      UGAHacks 5
+                                                                      across 12
+                                                                      corporate sponsors.}
+                                                                      \resumeSubHeadingListEnd
+
+  %--------ADDITIONAL------------
+\section{Additional}
+  \resumeSubHeadingListStart
+  \resumeSubItem{Interests}
+                {Mobile technology, computer architectures, GNU/Linux and other libre software, satellites, Japanese, Latin, weight training}
+                \resumeSubItem{Eagle Scout}
+                              {Troop 2143, Atlanta Area Council}{}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
