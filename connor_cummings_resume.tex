@@ -14,7 +14,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
+\usepackage{hyperref}
 \usepackage{fancyhdr}
 
 
@@ -84,12 +84,66 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://github.com/connorcinna/}{\Large Connor Cummings}} & Email : \href{mailto:connorcinna@gmail.com}{mailto:connorcinna@gmail.com}\\
-  \href{https://github.com/connorcinna}{https://github.com/connorcinna} & Mobile
-  : 678-596-5960 \\
+  {\Large Connor Cummings}} & \href{mailto:connorcinna@gmail.com}{connorcinna@gmail.com}\\
+  \href{https://github.com/connorcinna}{https://github.com/connorcinna} & 
+  678-596-5960 \\
  Natural US Citizen & Duluth, GA 30097  \\
 \end{tabular*}
 
+%-----------JOB HISTORY-----------------
+  \section{Experience}
+\resumeSubheadingTwo
+{Software Engineer - AGS}{2023 - Present}
+\begin{itemize}
+\setlength\itemsep{-0.25em}
+\item
+Converted a legacy C\# .NET Windows server application to Linux, repurposing it to be ran in a cluster. Developed a unique negotiation
+algorithm for comparing financial data to determine consensus in the cluster. Cluster software was built for high tolerance against 
+power and network loss, and was directly responsible for managing tens of thousands of USD
+\item
+Independently developed a standalone C++ program for deserializing negotiation packets in the cluster for visualization and debugging
+\item
+Developed and maintained C++ Linux hardware plugins that were marshalled into C\#
+\item
+Maintained the product's Ubuntu Linux operating system image, scripts, build process, and in-house package management system
+\item
+Maintained .NET and Unity code for game engine
+\end{itemize}
+%\resumeItemListEnd\vspace{8pt}
+\resumeSubHeadingListEnd
+\resumeSubheadingTwo
+{Software Engineer - USAF}{2021 - 2023}
+\begin{itemize}
+\setlength\itemsep{-0.25em}
+\item
+Maintained critical defense systems for the F-15 Eagle fighter jet, including the AWG-20 Programmable Armament Control Set, APG-68, and APG-70 Radar subsystems
+\item
+Analyzed field requests from pilots and participated in an active Agile (SAFe) team for sprint planning
+\item
+Wrote custom scripts and programs for easing the workload of other teams, such as parsing CSV files and exporting the data
+\end{itemize}
+%-----------SKILLS----------------m
+\section{Skills}
+\begin{itemize}
+\setlength\itemsep{-0.25em}
+\item
+\textbf{Languages:} C, C++, C\#, Rust, Bash
+\item
+\textbf{Tools:} Git, CMake, Vim, Visual Studio, Linux CLI
+\item
+\textbf{Platforms:} Linux, Windows, ESP32
+\end{itemize}
+%-----------PROJECTS-----------------
+\section{Projects}
+\begin{itemize}
+\setlength\itemsep{-0.25em}
+\item 
+\textbf{Blitzcrank:} Discord bot that interfaces with many different web APIs to fetch data and automate tasks, written in pure Rust.
+\item
+\textbf{CChat:} Chatroom app that uses a TCP server-client model, with an NCurses terminal-only frontend, written in pure C.
+\item
+\textbf{CLog:} A simple and easy to use C / C++ logging library that supports multiple logging levels, color per log level, and writing to an output file. \\
+\end{itemize}
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -99,206 +153,4 @@
       {BSc, Computer Engineering, minor in computer science}{May 2021 }
   \resumeSubHeadingListEnd
 
-
-%-----------COURSEWORK-----------------
-  \section{Coursework}
-%  \resumeSubHeadingListStart
-  
-  \resumeSubheadingTwo
-      {Programming}
-      \resumeItemListStart
-      \resumeItem{Systems Programming}
-                 {C++ systems programming in a UNIX environment, involving shell
-                 programming and C++ concepts such as pointers and safe memory handling.}
-                 \resumeItem{Software Development}
-                            {Cross-platform development with
-                              JavaFX with an emphasis on the object-oriented
-                              paradigm.}
-                            \resumeItem{Data Structures}
-                                       {Analysis of different types of abstract data
-                                         types (ADT) and the best practices for
-                                         programming them in C++, including
-                                         stacks, queues, binary trees and linked
-                                       lists.}
-                                       \resumeItemListEnd\vspace{8pt}
-                                       \resumeSubheadingTwo
-                                           {Hardware}%\tabto{1.5in}
-                                           \resumeItemListStart
-                                           \resumeItem{Electronics}
-                                                      {Analysis of
-                                                        microelectronic
-                                                        circuits, components,
-                                                        and ICs. Labs involved
-                                                        creating complete
-                                                        circuits by soldering
-                                                        components to a board
-                                                        and programming in MatLab.}
-                                                      \resumeItem{Sensors and Transducers}
-                                                                 {Classifying
-                                                                   different
-                                                                   types of
-                                                                   sensors,
-                                                                   their
-                                                                   applications,
-                                                                   and how to
-                                                                   use them
-                                                                   effectively
-                                                                   in a project
-                                                                   by combining
-                                                                   with signal
-                                                                   processing,
-                                                                   transducers,
-                                                                   and actuators.}
-                                                                 \resumeItem{Design of Digital Systems}
-                                                                            {FPGA
-                                                                              programming
-                                                                              with
-                                                                              Verilog
-                                                                              hardware
-                                                                              description language
-                                                                              for
-                                                                              complex
-                                                                              logic designs.}
-                                                                            \resumeItem{Embedded Systems}
-                                                                                       {Studied
-                                                                                       the
-                                                                                       68HC11
-                                                                                       microcontroller,
-                                                                                       including
-                                                                                       its
-                                                                                       architecture,
-                                                                                       subroutines,
-                                                                                       and
-                                                                                       Assembly
-                                                                                       instruction
-                                                                                       set.}
-                                                                                       \resumeItemListEnd
-
- %                                                                                      \resumeSubHeadingListEnd
-%-----------SKILLS-----------------
-\section{Skills}
-\resumeSubHeadingListStart
-\resumeSubItem{GNU/Linux, Emacs, Vim, Bash}
-              {Strong background in programming without an IDE, using command
-                line interface (CLI) programs and configuration files.}
-              \resumeSubItem{Programming}
-                            {C++, Java, Python 3, Verilog, G, 68HC11 Assembly,
-        MIPS Assembly, MatLab}
-                            \resumeSubItem{Technologies}
-                            {JavaFX, Android Studio, AsmIDE, ProjectNavigator,
-        LabView, Logic.ly}
-              \resumeSubItem{LaTeX}
-              {Experience with writing documents using LaTeX, including lab
-                reports, project proposals, and resumes.}
-
-              \resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------------
-              \section{Projects}
-              \resumeSubHeadingListStart
-              \resumeSubItem{Automated Lighting System}
-                            {Programmed an Arduino to automatically power a lightbulb, implementing light and motion sensing, I2C protocol, and logic design principles.}
-                            \resumeSubItem{Team Robotics Programming}
-                            {\textit{In Progress: }Team of 4 computer engineers collaborated with a
-                              team of 4 electrical engineers to design a control
-                            system on a custom PCB for a car that would be controlled by
-                            a Bluetooth module via an Android app that the team
-                            created. Personal role involved overall design and
-                            writing the app to control the car.}
-                                          \resumeSubItem{AM/FM Radio Receiver}
-                                                        {Implemented inverting
-                                                          gain op-amp in design
-                                                          of an FM radio
-                                                          receiver. Role
-                                                          included parsing
-                                                          documentation for the
-                                                          project and soldering
-                                                          components to PCB.}
-                                                        \resumeSubItem{Optic Fiber Transceiver}
-                                                        {Built a transceiver
-                                                          using two PCBs, one
-                                                          for the receiver and
-                                                          one for the
-                                                          transmitter, connected
-                                                          by an optic fiber
-                                                          cable. The transceiver
-                                                        was tested by parsing
-                                                        its digital output into
-                                                        MatLab and running Fast
-                                                        Fourier Transform (FFT)
-                                                        operations on it.}
-                                                        \resumeSubItem{Arithmetic
-                                                        Logic Unit (ALU)}
-                                                                      {\textit{In
-                                                                          Progress:
-                                                                        }Designed
-                                                                        and
-                                                                        built a
-                                                                        4-bit
-                                                                        ALU with
-                                                                      2 data
-                                                                      registers,
-                                                                      4-bit
-                                                                      insruction
-                                                                      decoder,
-                                                                      and 16
-                                                                      instructions
-                                                                      (3 NOP),
-                                                                      all
-                                                                      controlled
-                                                                      by a state
-                                                                      machine,
-                                                                      in
-                                                                      Logic.ly
-                                                                      (logic
-                                                                      gate simulator).}
-                                                                      \resumeSubItem
-                                                                      {Digital
-                                                                      Temperature
-                                                                      Measurement
-                                                                      System}
-                                                                      {\textit{In
-                                                                          Progress:}
-                                                                        Developed
-                                                                        a digital
-                                                                        temperature
-                                                                        measuring
-                                                                        system
-                                                                        using the
-                                                                        68HC11
-                                                                        development
-                                                                        board,
-                                                                        programmed
-                                                                        in 68HC11
-                                                                        Assembly.}
-                                                        \resumeSubItem{UGAHacks}
-                                                                      {Organizer
-                                                                        for
-                                                                        UGAHacks
-                                                                        4, 5, and
-                                                                        6, UGA's
-                                                                        annual
-                                                                        hackathon.
-                                                                      Worked with
-                                                                      the
-                                                                      sponsorship
-                                                                      team that
-                                                                      managed to
-                                                                      raise over
-                                                                      \$10,000
-                                                                      for
-                                                                      UGAHacks 5
-                                                                      across 12
-                                                                      corporate sponsors.}
-                                                                      \resumeSubHeadingListEnd
-
-  %--------ADDITIONAL------------
-\section{Additional}
-  \resumeSubHeadingListStart
-  \resumeSubItem{Interests}
-                {Mobile technology, computer architectures, GNU/Linux and other libre software, satellites, Japanese, Latin, weight training}
-                \resumeSubItem{Eagle Scout}
-                              {Troop 2143, Atlanta Area Council}{}
-  \resumeSubHeadingListEnd
-%-------------------------------------------
 \end{document}
